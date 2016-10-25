@@ -193,3 +193,8 @@ h1 {
 	font-weight:normal;
 }
 
+
+.logo {
+	position:fixed;
+	margin-top:10px;
+}
