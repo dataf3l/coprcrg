@@ -1,0 +1,131 @@
+<!doctype html5>
+<html>
+	<head>
+		<meta charset="utf-8" >
+		<title>
+			Comercio Exterior - CorpSRG // Bogotá Colombia
+		</title>
+		<!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" />-->    <!-- Google web font "Open Sans" -->    
+		<link rel="stylesheet" href="2.css" />
+		<link rel="stylesheet" href="carousel.css" />
+		<script src='2.js'></script>
+	</head>
+<body>
+    <div class=menu_container>
+	<ul class=menu>
+		<li><a href="#" onclick='scrollTo(0)'>Inicio</a></li>
+		<li><a href="#" onclick='scrollTo(1)' >Empresa</a></li>
+		<li><a href="#" onclick='scrollTo(2)' >Lexus</a>
+			<ul class=submenu>
+				<li><a href="#" onclick='scrollTo(3)'  >Lexus GX</a></li>
+				<li><a href="#" onclick='scrollTo(4)' >Lexus LX</a></li>
+				<li><a href="#" onclick='scrollTo(5)' >Lexus NX</a></li>
+				<li><a href="#" onclick='scrollTo(6)' >Lexus RX</a></li>
+			</ul>
+		</li>
+		<li><a href="#" onclick='scrollTo(7)' >Contáctenos</a></li>
+	</ul>
+    </div>
+    <div style='clear:both'></div>
+    <div class=main-wide-container>
+	<a name=inicio></a>
+	<section class=section1>
+		<div class=slider>
+			<div class="container">
+			  <div class="css-carousel">
+			    <img class="css-img" src="./img/LexusGxM.png">
+			    <img class="css-img" src="./img/LexusLxM.png">
+			    <img class="css-img" src="./img/LexusNxM.png">
+			    <img class="css-img" src="./img/LexusRxM.png">
+			  </div>
+			</div>
+
+		</div>
+		<p>Importación y Comecialización
+		De Camionetas Lexus y Otras Marcas</p>
+
+	</section>
+	<a name=empresa></a>
+	<section class=section2>
+	    <div class=text_container>
+		<div class="block left">
+			<h2>Corporación SRG</h2>
+			<p>Empresa dedicada al comercio internacional de bienes a través de exportaciones, importaciones y ventas de los mismos. Nuestra estrategia de comercialización está enfocada a la satisfacción de nuestros clientes locales e internacionales, a través de estándares de calidad, exclusividad, confiabilidad y cumplimiento
+			</p>
+			<h2>Misión</h2>
+			<p>La Corporación SRG hace posible acercar los bienes de su portafolio a sus clientes en Colombia y en el exterior en tiempos óptimos, precios altamente competitivos, procesos totalmente transparentes y bienes de más alta calidad en el mercado.</p>
+			<h2>Visión</h2>
+				<p>En el año 2021 la Corporación SRG será reconocida en Colombia por liderar el comercio de su portafolio de bienes.</p>
+		</div>
+		<div class="block left">
+			<h2>Valores</h2>
+			<p>Respeto por nuestra competencia, nuestros clientes y nuesto recurso humano.</p>
+			<p>Honestidad en el mercado con nuestros competidores, en nuestros procesos de venta con clientes y en el trabajo interno con nuestros empleados.</p>
+			<p>Responsabilidad con las exigencias del mercado y de nuestros clientes.</p>
+			<h2>Responsabilidad Social Empressarial</h2>
+			<p>La Corporación SRG como parte de su operacon Local e Internacional, brindará ayuda económica y social a Escuelas de Formación Futbol en sectores marginados de la ciudad de Bogotá y sus alrededores, atrayendo niños y jóvenes a practicar este deporte, alejándolos de los vicios y malas costumbres</p>
+		</div>
+	    </div>
+	</section>
+	<a name=Lexus></a>
+	<section class=section3>
+
+		<map name="vehiculos">
+		  <area shape="rect" coords="10,10,350,200" href="#" alt="" onclick='scrollTo(3)'>
+		  <area shape="rect" coords="360,10,700,200" href="#" alt="" onclick='scrollTo(4)'>
+		  <area shape="rect" coords="10,205,350,410" href="#" alt="" onclick='scrollTo(5)'>
+		  <area shape="rect" coords="360,205,700,410" href="#" alt="" onclick='scrollTo(6)'>
+		</map>
+
+		<img class=simage src='./img/LexusCarrusel.png' usemap="#vehiculos" />
+
+	</section>
+
+	<a name=LexusGX></a>
+	<section class=section4>
+		<!--<h1>LexusGX</h1>-->
+		<img class=simage src='./img/detalles/LexusGx460.jpg' />
+	</section>
+	<a name=LexusLX></a>
+	<section class=section5>
+		<!--<h1>LexusLX</h1>-->
+		<img class=simage src='./img/detalles/LexusLx570.jpg' />
+	</section>
+
+	<a name=LexusNX></a>
+	<section class=section6>
+		<!--<h1>LexusNX</h1>-->
+		<img class=simage src='./img/detalles/LexusNx200T.jpg' />
+	</section>
+
+	<a name=LexusRX></a>
+	<section class=section7>
+		<!--<h1>LexusRX</h1>-->
+		<img class=simage src='./img/detalles/LexusRx350.jpg' />
+	</section>
+
+	<a name=contact></a>
+	<section class=section8>
+
+		<form action="send.php" class=contact_form method=POST>
+			<h1>Contáctenos</h1>
+			<p>
+			Estamos siempre dispuestos a atender cualquier solicitud y abiertos a recibir sus valiosos comentarios. Para ello, favor llenar el siguiente formulario o enviar un correo electrónico a <a href='mailto:gerencia@corpsrg.co'>gerencia@corpsrg.co</a> . Lo tenderemos gustosamente.</p>
+			<p>Juan Carlos Rojas Galvis</p>
+			<p>Celular <a href='tel:(312)480-5330'>(312)480-5330</a> - Bogotá Colombia</p>
+
+			<div class=form_left>
+				<input class=in type=text name=contact_name placeholder=Nombre />
+				<input class=in type=email name=contact_email placeholder="Correo electrónico" />
+				<input class=in type=text name=contact_name placeholder="contact_subject" />
+			</div>
+			<div class=form_right>
+				<textarea class=area name=contact_message placeholder="Su Mensaje"></textarea>
+			</div>
+			<div style='clear:both'></div>
+                        <input type="submit" value="Enviar" />
+			<div style='clear:both'></div>
+		</form>
+	</section>
+    </div>
+</body>
