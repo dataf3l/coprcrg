@@ -1,0 +1,69 @@
+.carousel-container {
+    width:592px; /** must be lower or equal to first responsive breakpoint */ 
+	height:326px;
+	position:relative;
+	overflow:hidden;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0;
+    margin-bottom:0;
+    
+}
+
+.css-carousel {
+  width:500%;/* see 90210*/
+  -webkit-animation: css-carousel 20s linear infinite;
+	-moz-animation: css-carousel 20s linear infinite;
+	-ms-animation: css-carousel 20s linear infinite;
+	animation: css-carousel 20s linear infinite;
+}
+
+.css-carousel .css-img{
+  display:inline-block;
+  cursor:pointer;
+}
+.css-carousel img:not(:first-child){
+  float:left;
+}
+
+@-webkit-keyframes css-carousel {
+  0%, 23% {margin-left:0}
+  25%, 48% { margin-left:-100%; }
+  50%, 73% { margin-left:-200%; }
+  75%, 98% { margin-left:-300%;}
+  100% { margin-left:0;}
+    
+}
+@-moz-keyframes css-carousel {
+  0%, 23% {margin-left:0}
+  25%, 48% { margin-left:-100%; }
+  50%, 73% { margin-left:-200%; }
+  75%, 98% { margin-left:-300%;}
+  100% { margin-left:0;}
+}
+@-ms-keyframes css-carousel {
+  0%, 23% {margin-left:0}
+  25%, 48% { margin-left:-100%; }
+  50%, 73% { margin-left:-200%; }
+  75%, 98% { margin-left:-300%;}
+  100% { margin-left:0;}
+}
+@keyframes css-carousel {
+  0%, 23% {margin-left:0}
+  25%, 48% { margin-left:-100%; }
+  50%, 73% { margin-left:-200%; }
+  75%, 98% { margin-left:-300%;}
+  100% { margin-left:0;}
+}
+/* http://codepen.io/epainter/pen/jdLvG */
+
+
+@media only screen and (max-width: 768px) {
+    .carousel-container {
+        width:100%;
+    } 
+    .css-carousel .css-img {
+        width:20%; /* see 90210  1/(500%) */
+    }
+}
