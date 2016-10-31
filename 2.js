@@ -4,7 +4,8 @@ var timer_speed = 50; // ms
 var the_timer = null;
 function scrollTo(desired_location){
 	//var sw = window.screen.width;
-	var sw = document.body.clientWidth;
+	//var sw = document.body.clientWidth;
+	var sw = window.innerWidth;
 	//if(Math.abs(document.body.scrollLeft - desired_location * sw) > (sw * 4)){
 	//	document.body.scrollLeft =  desired_location * sw;
 	//	return;
