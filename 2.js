@@ -1,5 +1,5 @@
 var desired_location = 0;
-var default_speed = 250; // px
+var default_speed = 150; // px
 var timer_speed = 25; // ms
 function scrollTo(desired_location){
 	var sw = window.screen.width;
