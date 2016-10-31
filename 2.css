@@ -105,8 +105,8 @@ section {
 }
 .text_container {
 	text-align:center;
-	padding-left:15vw;
-	width:100vw;
+	margin:0 auto;
+	width:50vw;
 	padding-top:100px;
 }
 .text_container .left {
@@ -122,8 +122,8 @@ section {
 	padding:2vw;
 	box-sizing:border-box;
 	display:inline-block;
-	margin:20px;
-	width:30vw;
+	margin-left:1vw;
+	width:24vw;
 	background-color:rgba(255,255,255, 0.70);
 	pading:3vw;
 	font-family:helvetica;
