@@ -128,9 +128,10 @@ section {
 	pading:3vw;
 	font-family:helvetica;
 	text-align:justify;
+	height:35vw;
 }
 .block h2 {
-	font-size:22px;
+	font-size:21px;
 	line-height:26px;
 	margin-bottom:25px;
 	-webkit-font-smoothing:antialisaded;
