@@ -1,6 +1,8 @@
 .container {
-	width:592px;
-	height:326px;
+	width:50vw;
+	height:27.5vw;
+	/*width:592px;
+	height:326px;*/
 	position:relative;
 	overflow:hidden;
 }
@@ -14,7 +16,10 @@
 }
 
 .css-carousel .css-img{
-  display:inline-block;
+	display:inline-block;
+	width:50vw;
+	height:27.5vw;
+	
 }
 .css-carousel img:not(:first-child){
   float:left;
