@@ -5,11 +5,11 @@ ul.menu li {
 	list-style: none;
 	float:left;
 	border:0px solid black;
-	padding-top:25px;
-	margin:10px;
+	padding-top:1.2vw;
+	margin: 0.5vw;
 	background-color:rgba(255,255,255, 0.70);
-	width:13vw;
-	height:80px;
+	width:11vw;
+	height:4vw;
 	box-sizing:border-box;
 	text-align:center;
 }
@@ -25,7 +25,7 @@ ul.submenu li {
 	z-index:2;
 }
 ul.menu {
-	width:65%;
+	width:50vw;
 	margin:0 auto;
 }
 ul.menu li:hover {
