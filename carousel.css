@@ -19,6 +19,7 @@
 	display:inline-block;
 	width:50vw;
 	height:27.5vw;
+	cursor:pointer;
 	
 }
 .css-carousel img:not(:first-child){
