@@ -8,7 +8,7 @@ ul.menu li {
 	list-style: none;
 	float:left;
 	border:0px solid black;
-	padding-top:1.2vw;
+	padding-top:20px;
 	margin-right: 0.5vw;
 	background-color:rgba(255,255,255, 0.70);
 	width:12vw;
@@ -43,6 +43,7 @@ ul.menu li a {
 	text-transform:uppercase;
 }
 ul.submenu {
+	margin-top:-15px;
 	display:none;
 }
 li:hover ul.submenu {
