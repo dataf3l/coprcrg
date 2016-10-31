@@ -1,14 +1,17 @@
 body {
 	
 }
+ul.menu li:last-child {
+	margin-right: 0;
+}
 ul.menu li {
 	list-style: none;
 	float:left;
 	border:0px solid black;
 	padding-top:1.2vw;
-	margin: 0.5vw;
+	margin-right: 0.5vw;
 	background-color:rgba(255,255,255, 0.70);
-	width:11vw;
+	width:12vw;
 	height:4vw;
 	box-sizing:border-box;
 	text-align:center;
