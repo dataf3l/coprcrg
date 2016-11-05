@@ -8,10 +8,10 @@ function scrollTo(desired_location){
 	//var sw = window.screen.width;
 	//var sw = document.body.clientWidth;
 	var sw = window.innerWidth;
-	if(Math.abs(document.body.scrollLeft - desired_location * sw) > (sw * 4)){
-		document.body.scrollLeft =  desired_location * sw;
-		return;
-	}
+	//if(Math.abs(document.body.scrollLeft - desired_location * sw) > (sw * 4)){
+	document.body.scrollLeft =  desired_location * sw;
+	//	return;
+	//}
 
 	var speed = Math.min(default_speed, Math.abs(document.body.scrollLeft - desired_location * sw));
 	if(document.body.scrollLeft > desired_location * sw) {
